@@ -7,7 +7,7 @@ import { Home } from './pages/Home'
 import { About } from './pages/About'
 import { Contact } from './pages/Contact'
 import { Gallery } from './pages/Gallery'
-
+import { Footer } from './pages/footer'
 import './App.css'
 
 export default function App() {
@@ -22,6 +22,7 @@ export default function App() {
       <Route path='/contact' element={<Contact />} />
       </Route>
     </Routes>
+    < Footer />
     </>
   )
 }
